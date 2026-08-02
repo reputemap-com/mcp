@@ -28,6 +28,14 @@ Tool calls share the plan's **1,000 credits/month** with the [REST API](https://
 
 ## Quick start
 
+### npx (any stdio MCP client, incl. Claude Desktop)
+
+```bash
+REPUTEMAP_API_KEY="rmk_YOUR_KEY" npx reputemap-mcp
+```
+
+Zero dependencies — a [116-line stdio bridge](bin/cli.mjs) that forwards JSON-RPC to the hosted endpoint. npm: [`reputemap-mcp`](https://www.npmjs.com/package/reputemap-mcp)
+
 ### Claude Code
 
 ```bash
@@ -37,7 +45,7 @@ claude mcp add --transport http reputemap https://api.reputemap.com/mcp \
 
 ### Claude Desktop
 
-Merge [`configs/claude_desktop_config.json`](configs/claude_desktop_config.json) into **Settings → Developer → Edit Config** (uses the `mcp-remote` bridge, needs Node.js ≥ 18), replace `rmk_YOUR_KEY`, restart the app.
+Merge [`configs/claude_desktop_config.json`](configs/claude_desktop_config.json) into **Settings → Developer → Edit Config** (Node.js ≥ 18), replace `rmk_YOUR_KEY`, restart the app.
 
 ### Cursor
 

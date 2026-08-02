@@ -1,0 +1,40 @@
+{
+  "name": "reputemap-mcp",
+  "version": "0.1.0",
+  "description": "ReputeMap MCP — manage Google Business Profile reviews from Claude, Cursor or any MCP client: review inbox, stats, review requests. Zero-dependency stdio bridge to the hosted Streamable HTTP endpoint.",
+  "type": "module",
+  "bin": {
+    "reputemap-mcp": "bin/cli.mjs"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reputemap/mcp.git"
+  },
+  "homepage": "https://reputemap.com/docs/mcp",
+  "bugs": {
+    "url": "https://github.com/reputemap/mcp/issues"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "google-reviews",
+    "review-management",
+    "google-business-profile",
+    "reputation-management",
+    "claude",
+    "ai-agents",
+    "local-seo"
+  ],
+  "author": "ReputeMap <yaro@reputemap.com> (https://reputemap.com)",
+  "license": "MIT",
+  "mcpName": "com.reputemap/reputemap"
+}
