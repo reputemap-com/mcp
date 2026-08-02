@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "reputemap": {
+      "command": "npx",
+      "args": [
+        "-y", "mcp-remote", "https://api.reputemap.com/mcp",
+        "--header", "Authorization: Bearer rmk_YOUR_KEY"
+      ]
+    }
+  }
+}
