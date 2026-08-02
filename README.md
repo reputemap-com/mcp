@@ -31,10 +31,10 @@ Tool calls share the plan's **1,000 credits/month** with the [REST API](https://
 ### npx (any stdio MCP client, incl. Claude Desktop)
 
 ```bash
-REPUTEMAP_API_KEY="rmk_YOUR_KEY" npx reputemap-mcp
+REPUTEMAP_API_KEY="rmk_YOUR_KEY" npx -y @reputemap/mcp
 ```
 
-Zero dependencies — a [116-line stdio bridge](bin/cli.mjs) that forwards JSON-RPC to the hosted endpoint. npm: [`reputemap-mcp`](https://www.npmjs.com/package/reputemap-mcp)
+Zero dependencies — a [116-line stdio bridge](bin/cli.mjs) that forwards JSON-RPC to the hosted endpoint. npm: [`@reputemap/mcp`](https://www.npmjs.com/package/@reputemap/mcp)
 
 ### Claude Code
 

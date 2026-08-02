@@ -1,5 +1,5 @@
 {
-  "name": "reputemap-mcp",
+  "name": "@reputemap/mcp",
   "version": "0.1.0",
   "description": "ReputeMap MCP — manage Google Business Profile reviews from Claude, Cursor or any MCP client: review inbox, stats, review requests. Zero-dependency stdio bridge to the hosted Streamable HTTP endpoint.",
   "type": "module",
@@ -36,5 +36,8 @@
   ],
   "author": "ReputeMap <yaro@reputemap.com> (https://reputemap.com)",
   "license": "MIT",
-  "mcpName": "com.reputemap/reputemap"
+  "mcpName": "com.reputemap/reputemap",
+  "publishConfig": {
+    "access": "public"
+  }
 }

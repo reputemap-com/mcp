@@ -8,11 +8,11 @@
  * Authorization header on TLS requests to the endpoint below.
  *
  * Usage:
- *   REPUTEMAP_API_KEY="rmk_..." npx reputemap-mcp
+ *   REPUTEMAP_API_KEY="rmk_..." npx -y @reputemap/mcp
  *
  * Claude Desktop (claude_desktop_config.json):
  *   { "mcpServers": { "reputemap": {
- *       "command": "npx", "args": ["-y", "reputemap-mcp"],
+ *       "command": "npx", "args": ["-y", "@reputemap/mcp"],
  *       "env": { "REPUTEMAP_API_KEY": "rmk_..." } } } }
  */
 
