@@ -1,0 +1,46 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.reputemap/reputemap",
+  "title": "ReputeMap",
+  "description": "Read and filter your Google Business Profile reviews, get stats, and send review requests.",
+  "repository": {
+    "url": "https://github.com/reputemap/mcp",
+    "source": "github"
+  },
+  "version": "1.0.2",
+  "websiteUrl": "https://reputemap.com/docs/mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.reputemap.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer rmk_... — create an API key at https://app.reputemap.com/settings/api-keys (requires a paid plan or trial)",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "@reputemap/mcp",
+      "version": "0.1.0",
+      "runtimeHint": "npx",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "REPUTEMAP_API_KEY",
+          "description": "rmk_... — create an API key at https://app.reputemap.com/settings/api-keys (requires a paid plan or trial)",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

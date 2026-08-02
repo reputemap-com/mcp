@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "reputemap": {
-      "url": "https://api.reputemap.com/mcp",
-      "headers": { "Authorization": "Bearer rmk_YOUR_KEY" }
-    }
-  }
-}
