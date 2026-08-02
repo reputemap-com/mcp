@@ -1,6 +1,6 @@
 {
   "name": "@reputemap/mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ReputeMap MCP — manage Google Business Profile reviews from Claude, Cursor or any MCP client: review inbox, stats, review requests. Zero-dependency stdio bridge to the hosted Streamable HTTP endpoint.",
   "type": "module",
   "bin": {

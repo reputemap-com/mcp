@@ -109,6 +109,9 @@ authentication, then paste your key.
 
 Full walkthroughs with screenshots: [reputemap.com/docs/mcp](https://reputemap.com/docs/mcp).
 More recipes (cron digests, CRM sync): [reputemap/examples](https://github.com/reputemap/examples).
+Companion agent skills:
+[`reputemap/review-skills`](https://github.com/reputemap/review-skills)
+(`npx skills add reputemap/review-skills`).
 
 ## What's in this repo
 
