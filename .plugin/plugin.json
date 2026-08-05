@@ -1,0 +1,17 @@
+{
+  "name": "reputemap",
+  "version": "0.1.0",
+  "description": "Google Business Profile review management for AI agents — a filterable review inbox, per-location stats, and honest review-request campaigns.",
+  "author": "ReputeMap",
+  "homepage": "https://reputemap.com/docs/mcp",
+  "repository": "https://github.com/reputemap/mcp",
+  "license": "MIT",
+  "keywords": [
+    "google-reviews",
+    "review-management",
+    "reputation-management",
+    "local-seo",
+    "mcp-server"
+  ],
+  "mcpServers": "./.mcp.json"
+}
