@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "reputemap": {
+      "command": "npx",
+      "args": ["-y", "@reputemap/mcp"],
+      "env": {
+        "REPUTEMAP_API_KEY": "${REPUTEMAP_API_KEY}"
+      }
+    }
+  }
+}
