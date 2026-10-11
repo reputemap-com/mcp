@@ -4,7 +4,7 @@
   "description": "Google Business Profile review management for AI agents — a filterable review inbox, per-location stats, and honest review-request campaigns.",
   "author": "ReputeMap",
   "homepage": "https://reputemap.com/docs/mcp",
-  "repository": "https://github.com/reputemap/mcp",
+  "repository": "https://github.com/reputemap-com/mcp",
   "license": "MIT",
   "keywords": [
     "google-reviews",

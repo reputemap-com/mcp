@@ -17,11 +17,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reputemap/mcp.git"
+    "url": "git+https://github.com/reputemap-com/mcp.git"
   },
   "homepage": "https://reputemap.com/docs/mcp",
   "bugs": {
-    "url": "https://github.com/reputemap/mcp/issues"
+    "url": "https://github.com/reputemap-com/mcp/issues"
   },
   "keywords": [
     "mcp",
