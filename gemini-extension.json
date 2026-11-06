@@ -1,0 +1,15 @@
+{
+  "name": "reputemap",
+  "version": "1.0.0",
+  "description": "Manage Google Business Profile reviews with ReputeMap: review inbox, per-location stats, AI reply drafts, publishing approved replies, and review-request emails.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "reputemap": {
+      "httpUrl": "https://api.reputemap.com/mcp",
+      "oauth": {
+        "enabled": true,
+        "scopes": ["read", "write"]
+      }
+    }
+  }
+}

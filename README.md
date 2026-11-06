@@ -232,6 +232,20 @@ bearer_token_env_var = "REPUTEMAP_API_KEY"
 
 ### Gemini CLI
 
+Install the extension from this repo. It connects to the hosted endpoint and
+signs you in with OAuth on first use, so no API key is needed:
+
+```bash
+gemini extensions install https://github.com/reputemap-com/mcp
+```
+
+Then run `/mcp auth reputemap` in Gemini CLI (or just call a tool) to sign in
+to ReputeMap. The extension also loads [`GEMINI.md`](GEMINI.md), which tells
+the model what each tool does and that `publish_reply` posts publicly to
+Google only with text you approved.
+
+To use an API key instead, add the server yourself:
+
 ```bash
 gemini mcp add --transport http reputemap https://api.reputemap.com/mcp \
   --header "Authorization: Bearer rmk_YOUR_KEY"
@@ -305,6 +319,8 @@ REPUTEMAP_API_KEY="rmk_..." python3 server.py
 [official MCP registry](https://registry.modelcontextprotocol.io) as
 `com.reputemap/reputemap`. [`.plugin/plugin.json`](.plugin/plugin.json) and
 [`.mcp.json`](.mcp.json) describe the same server for plugin-aware clients.
+[`gemini-extension.json`](gemini-extension.json) and [`GEMINI.md`](GEMINI.md)
+make this repo a Gemini CLI extension.
 
 The bridge is about 120 readable lines, so it also documents what travels
 over the wire: your API key goes only into the `Authorization` header of TLS
